@@ -69,5 +69,14 @@ namespace XIVLoader_GUI.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream vanadiel_march_ffrk_arrange {
+            get {
+                return ResourceManager.GetStream("vanadiel_march_ffrk_arrange", resourceCulture);
+            }
+        }
     }
 }
