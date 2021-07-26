@@ -70,7 +70,7 @@ public class networklogic
         }
         catch (Exception exc)
         {
-            Console.WriteLine("Could not generate hashes. Is your game path correct? " + exc);
+            MessageBox.Show("Could not generate hashes. Is your game path correct? " + exc);
         }
 
         WebClient sidClient = new WebClient();
@@ -141,7 +141,7 @@ public class networklogic
                 {
                     if (reply.Contains("ID or password is incorrect"))
                     {
-                        Console.WriteLine("Incorrect username or password.");
+                        MessageBox.Show("Incorrect username or password.");
                         return "BAD";
                     }
                 }
