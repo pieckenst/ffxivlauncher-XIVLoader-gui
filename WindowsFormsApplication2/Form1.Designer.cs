@@ -44,26 +44,30 @@
             this.regionBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.otpBox = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // usernameBox
             // 
+            this.usernameBox.BackColor = System.Drawing.SystemColors.MenuBar;
             resources.ApplyResources(this.usernameBox, "usernameBox");
             this.usernameBox.Name = "usernameBox";
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.Info;
             this.label1.Name = "label1";
             // 
             // passwordBox
             // 
+            this.passwordBox.BackColor = System.Drawing.SystemColors.MenuBar;
             resources.ApplyResources(this.passwordBox, "passwordBox");
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.UseSystemPasswordChar = true;
@@ -71,20 +75,23 @@
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.SystemColors.Info;
             this.label2.Name = "label2";
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
             resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // gamepathTextbox
             // 
@@ -96,13 +103,11 @@
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // lngBox
             // 
             resources.ApplyResources(this.lngBox, "lngBox");
             this.lngBox.Name = "lngBox";
-            this.lngBox.TextChanged += new System.EventHandler(this.lngBox_TextChanged);
             // 
             // label5
             // 
@@ -114,38 +119,29 @@
             // 
             resources.ApplyResources(this.explvlBox, "explvlBox");
             this.explvlBox.Name = "explvlBox";
-            this.explvlBox.TextChanged += new System.EventHandler(this.explvlBox_TextChanged);
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // regionBox
             // 
             resources.ApplyResources(this.regionBox, "regionBox");
             this.regionBox.Name = "regionBox";
-            this.regionBox.TextChanged += new System.EventHandler(this.regionBox_TextChanged);
             // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.ForeColor = System.Drawing.SystemColors.Info;
             this.label7.Name = "label7";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // otpBox
             // 
+            this.otpBox.BackColor = System.Drawing.SystemColors.MenuBar;
             resources.ApplyResources(this.otpBox, "otpBox");
             this.otpBox.Name = "otpBox";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.pictureBox1.Image = global::XIVLoader_GUI.Properties.Resources.bigicon;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
@@ -164,8 +160,10 @@
             // checkBox2
             // 
             resources.ApplyResources(this.checkBox2, "checkBox2");
+            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox2.ForeColor = System.Drawing.SystemColors.Info;
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.UseVisualStyleBackColor = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // button3
@@ -175,10 +173,20 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::XIVLoader_GUI.Properties.Resources.bigicon;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::XIVLoader_GUI.Properties.Resources.ffxivxivloadfull4;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -229,11 +237,11 @@
         private System.Windows.Forms.TextBox regionBox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox otpBox;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

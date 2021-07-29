@@ -90,6 +90,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FFXIV.ico" />
+    <None Include="Resources\ffxivxivloadfull4.png" />
+    <None Include="Resources\ffxivxivloadfull3.png" />
+    <None Include="Resources\ffxivxivloadfull2.png" />
+    <None Include="Resources\ffxivxivloadfull1.png" />
+    <None Include="Resources\ffxivxivloadfull.png" />
     <None Include="Resources\vanadiel-march-ffrk-arrange.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

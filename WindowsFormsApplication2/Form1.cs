@@ -132,8 +132,8 @@ namespace XIVLoader_GUI
             else {
                 MessageBox.Show("Loading with default values");
             }
-            
-            this.Height = 288;
+
+            this.Height = 305;
             
         }
 
@@ -220,50 +220,19 @@ namespace XIVLoader_GUI
                 this.Height = 424;
             }
             else {
-                this.Height = 288;
+                this.Height = 305;
             }
             
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void explvlBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void regionBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lngBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void button3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Gamepath is the path where your final fantasy xiv client is located \n Valid ffxiv language codes are 0 - Japanese , 1 - English , 2 - German , 3 - French \n  Valid region codes are 1- Japan , 2 - America , 3 - International \n Valid expansion level codes are 0- ARR - 1 - Heavensward - 2 - Stormblood - 3 - Shadowbringers \n To save your login information as well as settings please click the save settings button");
         }
+
+        
 
         
 
